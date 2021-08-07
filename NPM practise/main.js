@@ -26,6 +26,32 @@ figlet('Hello BIT students', function(err, data) {
     }
     console.log(data)
 });
+
+
+figlet.text('Hello World!', {
+  font: 'slant',
+  horizontalLayout: 'default',
+  verticalLayout: 'fitted',
+  width: 80,
+  whitespaceBreak: true
+}, function(err, data) {
+  if (err) {
+      console.log('Something went wrong...');
+      console.dir(err);
+      return;
+  }
+  console.log(data);
+});
+
+
+figlet.fonts(function(err, fonts) {
+  if (err) {
+      console.log('something went wrong...');
+      console.dir(err);
+      return;
+  }
+  console.dir(fonts);
+});
 /************  figlet **************************** */
 
 
@@ -53,6 +79,16 @@ let play = (n) => {
 play(7);
 /****************************************** */
 
+
+/********* the Cow ****************************/
+var cowsay = require("cowsay");
+
+console.log(cowsay.say({
+    text : "I'm a moooodule",
+    e : "OO",
+    T : "U "
+}));
+/******************************************* */
 
 // console.log(funnyWords("Don't worry, be happy!"));
 // console.log(randomWords(5));
