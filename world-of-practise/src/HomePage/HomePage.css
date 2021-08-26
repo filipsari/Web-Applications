@@ -1,0 +1,15 @@
+.HomePage-container{
+  background-color: grey ;
+  width: 100vh;
+}
+
+
+h1{
+  color: white;
+  font: 53px;
+}
+
+p{
+  color: white;
+  font: 35px;
+}

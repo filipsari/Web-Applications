@@ -1,0 +1,9 @@
+.AboutUs-container{
+  background-color: rgb(108, 199, 199);
+  width: 100vh;
+}
+
+h1{
+  color: brown;
+  font: 53px;
+}
