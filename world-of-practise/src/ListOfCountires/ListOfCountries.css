@@ -1,0 +1,9 @@
+.countries-container{
+  background-color: rgb(141, 192, 250) ;
+  width: 100%;
+  margin-top: 25px;
+  text-align: center;
+  padding: 0;
+  box-sizing: border-box;
+}
+

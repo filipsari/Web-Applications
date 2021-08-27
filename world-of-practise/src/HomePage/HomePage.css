@@ -1,15 +1,28 @@
 .HomePage-container{
-  background-color: grey ;
-  width: 100vh;
+  background-color: rgb(174, 243, 161) ;
+  width: 100%;
+  margin-top: 25px;
+  text-align: center;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 
-h1{
+.title{
   color: white;
-  font: 53px;
+  font-size: 53px;
+  margin-top: 25px;
+  text-align: center;
+  padding: 0;
+  box-sizing: border-box;
+
 }
 
-p{
-  color: white;
-  font: 35px;
+.title2{
+  color: rgb(175, 43, 43);
+  font-size: 42px;
+}
+
+img{
+border-radius: 5px;
 }

@@ -1,9 +1,19 @@
 .AboutUs-container{
   background-color: rgb(108, 199, 199);
-  width: 100vh;
+  width: 100%;
+  text-align: center;
 }
 
-h1{
+.AboutUs{
   color: brown;
-  font: 53px;
+  font-size: 53px;
+  margin-bottom: 25px;
+}
+
+.AboutUs-p{
+color: aliceblue;
+font-size: 25px;
+text-indent: 15px;
+font-family: Arial, Helvetica, sans-serif;
+margin: 10px;
 }
