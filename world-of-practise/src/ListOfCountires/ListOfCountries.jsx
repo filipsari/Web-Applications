@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import './ListOfCountries.css';
 import { countries } from "../Data/data";
 
@@ -14,12 +15,13 @@ export const ListOfCountries = () => {
   <div className="card">
     <div className="card-image">
       <img src={element.picture.flag} />
-      <span className="card-title">{element.name}</span>
+      <span className="card-title country">{element.name}</span>
     </div>
     <div className="card-content">
     <img src={element.picture.capital} width="150px" height="120px" />
       <p> {element.capitalCity}</p>
       <p> {element.about}</p>
+      <Link to={`/countries/${element.id}`} className="link-css"> Click here for the text of the National Anthem </Link>
     </div>
   </div>
    </div>

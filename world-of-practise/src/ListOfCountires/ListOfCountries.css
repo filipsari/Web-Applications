@@ -7,3 +7,14 @@
   box-sizing: border-box;
 }
 
+.country{
+  border: 1px solid red;
+  color:black;
+  background-color: burlywood;
+  font-size: 35px;
+}
+
+.link-css{
+  margin-top: 15px;
+  font-size: 25px;
+}
